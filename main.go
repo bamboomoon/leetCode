@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(array.ContainsDuplicate([]int{2, 3, 2}))
+	a := array.Intersect([]int{}, []int{2, 4, 4, 5})
+	fmt.Println(a)
 }
